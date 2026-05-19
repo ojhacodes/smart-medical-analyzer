@@ -1,0 +1,7 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+medical_analyzer.db
+.env
