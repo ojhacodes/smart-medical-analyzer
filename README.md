@@ -1,4 +1,4 @@
-# Smart Medical Text Analyzer
+# Smart Medical Text Analyzer (https://smart-medical-analyzer.onrender.com/)
 
 A lightweight FastAPI service that processes unstructured medical notes into structured data using the Llama-3-8b model via OpenRouter.
 
