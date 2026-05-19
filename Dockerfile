@@ -17,8 +17,9 @@ COPY --from=builder /root/.local /root/.local
 # Ensure local python binaries are in PATH
 ENV PATH=/root/.local/bin:$PATH
 
-# Copy application code
+# Copy application code and frontend assets
 COPY ./app ./app
+COPY ./static ./static
 
 # Expose port
 EXPOSE 8000
